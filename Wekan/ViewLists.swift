@@ -78,6 +78,8 @@ class ViewLists: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let session = URLSession.shared
         let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
             do {
+                self.cardsDict = [Int: Card]()
+                self.cardsIndex = [Int: String]()
                 let cards = try JSONSerialization.jsonObject(with: data!) as! [NSDictionary]
                 var i = 0
                 for card in cards {

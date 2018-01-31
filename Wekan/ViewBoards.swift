@@ -79,6 +79,8 @@ class ViewBoards: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
             do {
                 let lists = try JSONSerialization.jsonObject(with: data!) as! [NSDictionary]
+                self.listsDict = [Int: List]()
+                self.listsIndex = [Int: String]()
                 var i = 0
                 for list in lists {
                     let listId = "\(list["_id"]!)"
