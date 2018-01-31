@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		F0593C1B2022081100C33AED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C1A2022081100C33AED /* AppDelegate.swift */; };
-		F0593C1D2022081100C33AED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C1C2022081100C33AED /* ViewController.swift */; };
+		F0593C1D2022081100C33AED /* ViewBoards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C1C2022081100C33AED /* ViewBoards.swift */; };
 		F0593C202022081100C33AED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0593C1E2022081100C33AED /* Main.storyboard */; };
 		F0593C232022081100C33AED /* Wekan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0593C212022081100C33AED /* Wekan.xcdatamodeld */; };
 		F0593C252022081100C33AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0593C242022081100C33AED /* Assets.xcassets */; };
 		F0593C282022081100C33AED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0593C262022081100C33AED /* LaunchScreen.storyboard */; };
 		F0593C332022081100C33AED /* WekanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C322022081100C33AED /* WekanTests.swift */; };
+		F0593C40202208D800C33AED /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C3D202208D700C33AED /* Login.swift */; };
+		F0593C42202208D800C33AED /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C3F202208D700C33AED /* Board.swift */; };
+		F0593C4420220BF500C33AED /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C4320220BF500C33AED /* List.swift */; };
+		F0593C46202211B800C33AED /* ViewLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C45202211B800C33AED /* ViewLists.swift */; };
+		F0593C47202211B800C33AED /* ViewLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C45202211B800C33AED /* ViewLists.swift */; };
+		F0593C48202211BC00C33AED /* ViewBoards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C1C2022081100C33AED /* ViewBoards.swift */; };
+		F0593C4A202211C200C33AED /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C3D202208D700C33AED /* Login.swift */; };
+		F0593C4B202211C400C33AED /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C4320220BF500C33AED /* List.swift */; };
+		F0593C4C202211C700C33AED /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0593C3F202208D700C33AED /* Board.swift */; };
+		F0E8670220222ECA00ADD903 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8670120222ECA00ADD903 /* Card.swift */; };
+		F0E8670320222ECA00ADD903 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8670120222ECA00ADD903 /* Card.swift */; };
+		F0E8670520223B8C00ADD903 /* ViewCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8670420223B8C00ADD903 /* ViewCards.swift */; };
+		F0E8670620223B8C00ADD903 /* ViewCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8670420223B8C00ADD903 /* ViewCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +42,7 @@
 /* Begin PBXFileReference section */
 		F0593C172022081100C33AED /* Wekan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wekan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0593C1A2022081100C33AED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0593C1C2022081100C33AED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0593C1C2022081100C33AED /* ViewBoards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBoards.swift; sourceTree = "<group>"; };
 		F0593C1F2022081100C33AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0593C222022081100C33AED /* Wekan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wekan.xcdatamodel; sourceTree = "<group>"; };
 		F0593C242022081100C33AED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +51,12 @@
 		F0593C2E2022081100C33AED /* WekanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WekanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0593C322022081100C33AED /* WekanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WekanTests.swift; sourceTree = "<group>"; };
 		F0593C342022081100C33AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0593C3D202208D700C33AED /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		F0593C3F202208D700C33AED /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		F0593C4320220BF500C33AED /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		F0593C45202211B800C33AED /* ViewLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLists.swift; sourceTree = "<group>"; };
+		F0E8670120222ECA00ADD903 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F0E8670420223B8C00ADD903 /* ViewCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +98,18 @@
 		F0593C192022081100C33AED /* Wekan */ = {
 			isa = PBXGroup;
 			children = (
+				F0593C292022081100C33AED /* Info.plist */,
 				F0593C1A2022081100C33AED /* AppDelegate.swift */,
-				F0593C1C2022081100C33AED /* ViewController.swift */,
-				F0593C1E2022081100C33AED /* Main.storyboard */,
+				F0593C3F202208D700C33AED /* Board.swift */,
+				F0593C4320220BF500C33AED /* List.swift */,
+				F0E8670120222ECA00ADD903 /* Card.swift */,
+				F0593C3D202208D700C33AED /* Login.swift */,
+				F0593C1C2022081100C33AED /* ViewBoards.swift */,
+				F0593C45202211B800C33AED /* ViewLists.swift */,
+				F0E8670420223B8C00ADD903 /* ViewCards.swift */,
 				F0593C242022081100C33AED /* Assets.xcassets */,
 				F0593C262022081100C33AED /* LaunchScreen.storyboard */,
-				F0593C292022081100C33AED /* Info.plist */,
+				F0593C1E2022081100C33AED /* Main.storyboard */,
 				F0593C212022081100C33AED /* Wekan.xcdatamodeld */,
 			);
 			path = Wekan;
@@ -202,9 +227,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0593C1D2022081100C33AED /* ViewController.swift in Sources */,
+				F0E8670520223B8C00ADD903 /* ViewCards.swift in Sources */,
+				F0593C1D2022081100C33AED /* ViewBoards.swift in Sources */,
+				F0E8670220222ECA00ADD903 /* Card.swift in Sources */,
 				F0593C232022081100C33AED /* Wekan.xcdatamodeld in Sources */,
+				F0593C4420220BF500C33AED /* List.swift in Sources */,
+				F0593C42202208D800C33AED /* Board.swift in Sources */,
+				F0593C46202211B800C33AED /* ViewLists.swift in Sources */,
 				F0593C1B2022081100C33AED /* AppDelegate.swift in Sources */,
+				F0593C40202208D800C33AED /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +243,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0593C4A202211C200C33AED /* Login.swift in Sources */,
+				F0593C47202211B800C33AED /* ViewLists.swift in Sources */,
+				F0E8670620223B8C00ADD903 /* ViewCards.swift in Sources */,
+				F0593C48202211BC00C33AED /* ViewBoards.swift in Sources */,
+				F0593C4C202211C700C33AED /* Board.swift in Sources */,
 				F0593C332022081100C33AED /* WekanTests.swift in Sources */,
+				F0593C4B202211C400C33AED /* List.swift in Sources */,
+				F0E8670320222ECA00ADD903 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
