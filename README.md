@@ -2,6 +2,7 @@
 
 ## Screenshots
 ![](screenshots/login.png)
-![](screenshots/boards.png)
+![](screenshots/Boards.png)
 ![](screenshots/lists.png)
+![](screenshots/cards.png)
 
